@@ -1,0 +1,13 @@
+http://onlineexam.lpu.in/
+http://onlineexam.lpu.in:80/
+http://onlineexam.lpu.in:80/bundles/bootstrap?v=hLo78AwRUbz6YrUf6C9j-NdRrxkkoB7YIYIMkG-gNCU1
+http://onlineexam.lpu.in:80/bundles/jqueryval?v=_2NARcHqgXjmcyzoEO-6dbbnH3elQxR0HYVvVd8_xNw1
+http://onlineexam.lpu.in:80/bundles/jquery?v=QKUPSia3ECT_E95si24LagQNjDmMylaf2SScSZLbaYQ1
+http://onlineexam.lpu.in:80/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1
+http://onlineexam.lpu.in:80/bundles/sweetalert?v=NPb20yuJ3sD2-_mJuzLdNnM8Mnt2pk5gDJQ7IIHbBbs1
+http://onlineexam.lpu.in:80/Faculty
+http://onlineexam.lpu.in:80/Faculty/ExamList
+http://onlineexam.lpu.in:80/Faculty/Index
+http://onlineexam.lpu.in:80/Home/Error
+http://onlineexam.lpu.in:80/Home/ErrorStore
+http://onlineexam.lpu.in/Home/ErrorStore

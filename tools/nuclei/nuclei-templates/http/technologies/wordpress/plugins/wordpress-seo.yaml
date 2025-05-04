@@ -1,0 +1,49 @@
+id: wordpress-wordpress-seo
+
+info:
+  name: Yoast SEO Detection
+  author: ricardomaia
+  severity: info
+  reference:
+    - https://wordpress.org/plugins/wordpress-seo/
+  metadata:
+    plugin_namespace: wordpress-seo
+    wpscan: https://wpscan.com/plugin/wordpress-seo
+  tags: tech,wordpress,wp-plugin,top-100,top-200
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/wp-content/plugins/wordpress-seo/readme.txt"
+
+    payloads:
+      last_version: helpers/wordpress/plugins/wordpress-seo.txt
+
+    extractors:
+      - type: regex
+        part: body
+        internal: true
+        name: internal_detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+      - type: regex
+        part: body
+        name: detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+    matchers-condition: or
+    matchers:
+      - type: dsl
+        name: "outdated_version"
+        dsl:
+          - compare_versions(internal_detected_version, concat("< ", last_version))
+
+      - type: regex
+        part: body
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+# digest: 490a00463044022023e2a57491be8107d5b8a6ff9970682272e8eead8765ac50d156a56411a782fa02205270ffffc6d4c822745862bf9f96b3ff289c3f12244d5a97c6a86aaa58debab5:922c64590222798bb761d5b6d8e72950

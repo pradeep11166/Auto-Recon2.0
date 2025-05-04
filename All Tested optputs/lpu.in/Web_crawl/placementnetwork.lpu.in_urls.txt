@@ -1,0 +1,7 @@
+https://placementnetwork.lpu.in/
+https://placementnetwork.lpu.in/assets/css/bootstrap.min.css
+https://placementnetwork.lpu.in/assets/css/style.css
+https://placementnetwork.lpu.in/assets/img/fav.png
+https://placementnetwork.lpu.in/assets/img/logo.png
+https://placementnetwork.lpu.in/assets/js/bootstrap.min.js
+https://placementnetwork.lpu.in/registration

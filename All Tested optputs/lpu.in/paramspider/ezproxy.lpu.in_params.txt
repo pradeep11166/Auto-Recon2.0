@@ -1,0 +1,2 @@
+http://ezproxy.lpu.in:80/login?qurl=FUZZ
+https://ezproxy.lpu.in/login?qurl=FUZZ

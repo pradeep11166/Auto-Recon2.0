@@ -1,0 +1,5 @@
+http://myclass.lpu.in:80/
+https://myclass.lpu.in/
+https://myclass.lpu.in/favicon.ico
+https://myclass.lpu.in/?id=12305124&error=invalid
+https://myclass.lpu.in/robots.txt

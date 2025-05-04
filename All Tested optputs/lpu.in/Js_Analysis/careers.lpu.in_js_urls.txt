@@ -1,0 +1,8 @@
+http://careers.lpu.in:80/wp-includes/js/mediaelement/
+http://careers.lpu.in:80/wp-json/
+http://careers.lpu.in:80/wp-json/oembed/1.0/embed?url=http://careers.lpu.in/&format=xml
+http://careers.lpu.in:80/wp-json/oembed/1.0/embed?url=http://careers.lpu.in/job-description/&format=xml
+http://careers.lpu.in:80/wp-json/oembed/1.0/embed?url=http://careers.lpu.in/jobs/&format=xml
+http://careers.lpu.in:80/wp-json/oembed/1.0/embed?url=http://careers.lpu.in/
+http://careers.lpu.in:80/wp-json/oembed/1.0/embed?url=http://careers.lpu.in/job-description/
+http://careers.lpu.in:80/wp-json/oembed/1.0/embed?url=http://careers.lpu.in/jobs/

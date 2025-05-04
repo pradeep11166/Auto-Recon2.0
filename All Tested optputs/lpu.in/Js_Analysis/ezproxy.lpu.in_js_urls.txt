@@ -1,0 +1,13 @@
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2F
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2Fhandle%2F123456789%2F1
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2Fhandle%2F123456789%2F10
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2Fhandle%2F123456789%2F3
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2Fhandle%2F123456789%2F3%2Fbrowse
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2Fhandle%2F123456789%2F301
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2Fhandle%2F123456789%2F307
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2Fhandle%2F123456789%2F406
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2Fhandle%2F123456789%2F412
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2Fhandle%2F123456789%2F415
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2Fhandle%2F123456789%2F594
+http://ezproxy.lpu.in:80/login?qurl=http://172.18.60.202:8080%2Fjspui%2Fsimple-search

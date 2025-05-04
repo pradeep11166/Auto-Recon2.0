@@ -1,0 +1,3 @@
+http://portal.lpu.in:80/
+http://portal.lpu.in:80/index.aspx
+http://portal.lpu.in/robots.txt

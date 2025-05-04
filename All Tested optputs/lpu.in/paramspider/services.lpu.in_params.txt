@@ -1,0 +1,8 @@
+https://services.lpu.in/api/programsearch/InsertApplyNow?link=FUZZ
+https://services.lpu.in/api/programsearch/GetAdvanceSearchSubjects?standingId=FUZZ
+https://services.lpu.in/api/programsearch/GetRankingCategory?Type=FUZZ
+https://services.lpu.in/api/programsearch/GetPerameterfromInternationalUrl?url=FUZZ
+https://services.lpu.in/api/programsearch/GetPerameterfromUrl?url=FUZZ
+https://services.lpu.in/api/ProgramSearch/GetEnggProgram?id=FUZZ
+https://services.lpu.in/api/programsearch/GetTestCityForNESTPage?type=FUZZ
+https://services.lpu.in/api/programsearch/GetNestTestDetails?qual=FUZZ

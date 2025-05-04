@@ -1,0 +1,8 @@
+https://intadmit.lpu.in/
+https://intadmit.lpu.in:443/
+https://intadmit.lpu.in/favicon.ico
+https://intadmit.lpu.in/js/college/bootstrap-datetimepicker.min.js?1699963084
+https://intadmit.lpu.in/js/college/moment.js
+https://intadmit.lpu.in/robots.txt
+https://intadmit.lpu.in/.well-known/assetlinks.json
+https://intadmit.lpu.in/.well-known/trust.txt

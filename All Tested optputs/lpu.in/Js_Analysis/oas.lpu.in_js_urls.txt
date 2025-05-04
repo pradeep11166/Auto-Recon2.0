@@ -1,0 +1,5 @@
+https://oas.lpu.in/.well-known/ai-plugin.json
+https://oas.lpu.in/.well-known/assetlinks.json
+https://oas.lpu.in/.well-known/gpc.json
+https://oas.lpu.in/lib/sweet-alert.js
+https://oas.lpu.in/Scripts/ApiPath.js

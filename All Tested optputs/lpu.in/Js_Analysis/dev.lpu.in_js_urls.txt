@@ -1,0 +1,15 @@
+https://dev.lpu.in/.well-known/ai-plugin.json
+https://dev.lpu.in/.well-known/assetlinks.json
+https://dev.lpu.in/.well-known/gpc.json
+https://dev.lpu.in/assets/js/highchart/highcharts-3d.js
+https://dev.lpu.in/assets/js/highchart/highcharts.js
+https://dev.lpu.in/assets/js/main.js
+https://dev.lpu.in/assets/vendors/bootstrap/js/bootstrap.min.js
+https://dev.lpu.in/assets/vendors/custom.slimscroll.js
+https://dev.lpu.in/assets/vendors/easy-responsive-tabs.js
+https://dev.lpu.in/assets/vendors/magnific-popup/jquery.magnific-popup.min.js
+https://dev.lpu.in/assets/vendors/pagination.js
+https://dev.lpu.in/assets/vendors/slick/slick.min.js
+https://dev.lpu.in/assets/vendors/slim-scroll/jquery.mCustomScrollbar.concat.min.js
+https://dev.lpu.in/assets/vendors/sweetalert2/sweetalert2.min.js
+http://dev.lpu.in/js/jquery.popupwindow.js

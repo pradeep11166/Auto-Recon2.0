@@ -1,0 +1,49 @@
+id: wordpress-pixelyoursite
+
+info:
+  name: PixelYourSite – Your smart PIXEL (TAG) & API Manager Detection
+  author: ricardomaia
+  severity: info
+  reference:
+    - https://wordpress.org/plugins/pixelyoursite/
+  metadata:
+    plugin_namespace: pixelyoursite
+    wpscan: https://wpscan.com/plugin/pixelyoursite
+  tags: tech,wordpress,wp-plugin,top-200
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/wp-content/plugins/pixelyoursite/readme.txt"
+
+    payloads:
+      last_version: helpers/wordpress/plugins/pixelyoursite.txt
+
+    extractors:
+      - type: regex
+        part: body
+        internal: true
+        name: internal_detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+      - type: regex
+        part: body
+        name: detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+    matchers-condition: or
+    matchers:
+      - type: dsl
+        name: "outdated_version"
+        dsl:
+          - compare_versions(internal_detected_version, concat("< ", last_version))
+
+      - type: regex
+        part: body
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+# digest: 490a00463044022032e09eea24bedc18efd5c72897ee09ef1b70be86586fcac2c719393f5c620aa602200bdc39071235c9653e6e104952986dfd42b2c3166dea60df46963f66160d2df1:922c64590222798bb761d5b6d8e72950

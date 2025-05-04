@@ -1,0 +1,8 @@
+http://oms.lpu.in/assets/global/plugins/bootbox/bootbox.min.js
+http://oms.lpu.in/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js
+http://oms.lpu.in/assets/global/plugins/jquery-validation/js/additional-methods.min.js
+http://oms.lpu.in/assets/global/plugins/jquery-validation/js/jquery.validate.min.js
+http://oms.lpu.in/assets/global/plugins/jquery.min.js
+http://oms.lpu.in/assets/global/plugins/select2/js/select2.full.min.js
+http://oms.lpu.in/assets/global/scripts/app.min.js
+http://oms.lpu.in/assets/pages/scripts/login.min.js

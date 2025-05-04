@@ -1,0 +1,10 @@
+security-crawl-maze/
+cmd/katana/katana
+katana
+*.exe
+katana_*/
+katana_*/
+dist/
+
+.vscode
+.devcontainer

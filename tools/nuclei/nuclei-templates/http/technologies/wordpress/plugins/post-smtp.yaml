@@ -1,0 +1,49 @@
+id: wordpress-post-smtp
+
+info:
+  name: Post SMTP – WP SMTP Plugin with Email Logs and Mobile App for Failure Notifications – Gmail SMTP, Office 365, Brevo, Mailgun, Amazon SES and more Detection
+  author: ricardomaia
+  severity: info
+  reference:
+    - https://wordpress.org/plugins/post-smtp/
+  metadata:
+    plugin_namespace: post-smtp
+    wpscan: https://wpscan.com/plugin/post-smtp
+  tags: tech,wordpress,wp-plugin,top-200
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/wp-content/plugins/post-smtp/readme.txt"
+
+    payloads:
+      last_version: helpers/wordpress/plugins/post-smtp.txt
+
+    extractors:
+      - type: regex
+        part: body
+        internal: true
+        name: internal_detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+      - type: regex
+        part: body
+        name: detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+    matchers-condition: or
+    matchers:
+      - type: dsl
+        name: "outdated_version"
+        dsl:
+          - compare_versions(internal_detected_version, concat("< ", last_version))
+
+      - type: regex
+        part: body
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+# digest: 4a0a004730450220314eba33c033dd994f145017866a86be32f9d4d8e112007f68a8ea5117eb5da2022100e9d1723e2b13989db6384acdeb3fa442cfef158ef167814470ce9328bd6e2159:922c64590222798bb761d5b6d8e72950

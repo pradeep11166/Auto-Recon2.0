@@ -1,0 +1,49 @@
+id: wordpress-fluentform
+
+info:
+  name: Fluent Forms – Customizable Contact Forms, Survey, Quiz, & Conversational Form Builder Detection
+  author: ricardomaia
+  severity: info
+  reference:
+    - https://wordpress.org/plugins/fluentform/
+  metadata:
+    plugin_namespace: fluentform
+    wpscan: https://wpscan.com/plugin/fluentform
+  tags: tech,wordpress,wp-plugin,top-200
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/wp-content/plugins/fluentform/readme.txt"
+
+    payloads:
+      last_version: helpers/wordpress/plugins/fluentform.txt
+
+    extractors:
+      - type: regex
+        part: body
+        internal: true
+        name: internal_detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+      - type: regex
+        part: body
+        name: detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+    matchers-condition: or
+    matchers:
+      - type: dsl
+        name: "outdated_version"
+        dsl:
+          - compare_versions(internal_detected_version, concat("< ", last_version))
+
+      - type: regex
+        part: body
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+# digest: 490a0046304402205d91a71b6b593062bd0885d75af39d858c1199b88dd9b6424c008c28f5b01161022046d357a7b6d5afa87da32cfe1e4d70dc1e54e102d7601d4bd0b1ac35cf5b04e8:922c64590222798bb761d5b6d8e72950

@@ -1,0 +1,9 @@
+http://internet.lpu.in:80/24online/webpages/myaccount/guestmessages.jsp?username=FUZZ
+http://internet.lpu.in/24online/servlet/E24onlineHTTPClient?referer=FUZZ
+http://internet.lpu.in:80/24online/webpages/clientlogin.jsp?isselfregistrationpage=FUZZ
+http://internet.lpu.in:80/24online/webpages/help/modulelicense.jsp?unregisteredmodulename=FUZZ
+http://internet.lpu.in/24online/webpages/clientlogin.jsp?loginstatus=FUZZ
+http://internet.lpu.in:80/24online/webpages/redirectclientgui.jsp?key=FUZZ
+http://internet.lpu.in:80/24online/myaccount.jsp?myaccountautologin=FUZZ
+http://internet.lpu.in:80/24online/webpages/client.jsp?fromlogout=FUZZ
+http://internet.lpu.in:80/24online/webpages/clientloginfilter.jsp?loginstatus=FUZZ

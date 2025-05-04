@@ -1,0 +1,9 @@
+https://vr.lpu.in/cdn-cgi/bm/cv/669835187/api.js
+https://vr.lpu.in/cdn-cgi/challenge-platform/h/b/jsd/r/831bebf7eb09f9f1
+https://vr.lpu.in/cdn-cgi/challenge-platform/h/b/scripts/jsd/56d3063b/main.js
+https://vr.lpu.in/cdn-cgi/challenge-platform/h/g/scripts/jsd/74bd6362/main.js
+https://vr.lpu.in/cdn-cgi/challenge-platform/scripts/jsd/main.js
+https://vr.lpu.in/data_files.js
+https://vr.lpu.in/plugins/scrollarea.js
+https://vr.lpu.in/plugins/soundinterface.js
+https://vr.lpu.in/plugins/webvr.js

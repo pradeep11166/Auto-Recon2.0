@@ -1,0 +1,49 @@
+id: wordpress-wp-super-cache
+
+info:
+  name: WP Super Cache Detection
+  author: ricardomaia
+  severity: info
+  reference:
+    - https://wordpress.org/plugins/wp-super-cache/
+  metadata:
+    plugin_namespace: wp-super-cache
+    wpscan: https://wpscan.com/plugin/wp-super-cache
+  tags: tech,wordpress,wp-plugin,top-100,top-200
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}/wp-content/plugins/wp-super-cache/readme.txt"
+
+    payloads:
+      last_version: helpers/wordpress/plugins/wp-super-cache.txt
+
+    extractors:
+      - type: regex
+        part: body
+        internal: true
+        name: internal_detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+      - type: regex
+        part: body
+        name: detected_version
+        group: 1
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+
+    matchers-condition: or
+    matchers:
+      - type: dsl
+        name: "outdated_version"
+        dsl:
+          - compare_versions(internal_detected_version, concat("< ", last_version))
+
+      - type: regex
+        part: body
+        regex:
+          - '(?i)Stable.tag:\s?([\w.]+)'
+# digest: 4a0a004730450220306b2089e2de1e86a7c1030674d29068eb985ed1fcef5ab9ed6cdc994aad944f022100f9a289a7a6c001fa0d735a4516340c1efdb9ad10b1b90c11bcb114494cddefd3:922c64590222798bb761d5b6d8e72950
