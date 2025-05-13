@@ -2,7 +2,19 @@ import os
 import shutil
 from colorama import Fore
 
+
+# Banner with ASCII art (fancy)
+def print_banner():
+    from pyfiglet import Figlet
+    from colorama import init, Fore
+    init(autoreset=True)
+    f = Figlet(font='slant')
+    #print(Fore.CYAN + f.renderText('Subdomain Enumeration'))
+    print(Fore.YELLOW + "   \n    🔥 Subdomain Enumeration 🔥\n", flush=True)
+
+
 def run(domain):
+    print_banner()
     output_dir = "output"
     
     # Clean and recreate the output directory
@@ -13,7 +25,6 @@ def run(domain):
     os.makedirs("output/All_url", exist_ok=True)
     os.makedirs("output/Js_Analysis", exist_ok=True)
     os.makedirs("output/Vuln_scan", exist_ok=True)
-    
     print(Fore.GREEN + "Running Subdomain Enumeration with Subfinder...")
 
     # Run Subfinder to find subdomains for the domain and store the output in a file

@@ -13,7 +13,19 @@ from colorama import Fore
 import os
 import shutil
 
+
+# Banner with ASCII art (fancy)
+def print_banner():
+    from pyfiglet import Figlet
+    from colorama import init, Fore
+    init(autoreset=True)
+    f = Figlet(font='slant')
+    #print(Fore.CYAN + f.renderText('Subdomain Takeover Scan'))
+    print(Fore.YELLOW + "   \n    🔥 Subdomain Takeover scan 🔥\n")
+
+
 def run(subdomains, output_dir):
+    print_banner()
     print(Fore.YELLOW + "Running Subdomain Takeover Scan...")
 
     # Step 1: Define the subdomains file path dynamically

@@ -2,7 +2,18 @@ import subprocess
 import shutil
 import os
 
+# Banner with ASCII art (fancy)
+def print_banner():
+    from pyfiglet import Figlet
+    from colorama import init, Fore
+    init(autoreset=True)
+    f = Figlet(font='slant')
+    #print(Fore.CYAN + f.renderText('Gowittness for Screenshots'))
+    print(Fore.YELLOW + "  \n     🔥 Gowittness for Screenshots 🔥\n")
+
+#Function to take screenshots.   
 def run(subdomains_file_path):
+    print_banner()
     # Make sure All_url/ folder exists
     os.makedirs('All_url', exist_ok=True)
     os.makedirs('output/screenshots', exist_ok=True)  # Create screenshots folder

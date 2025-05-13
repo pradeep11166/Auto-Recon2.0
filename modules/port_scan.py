@@ -5,8 +5,19 @@ import time
 # Ensure output directory exists
 os.makedirs("output", exist_ok=True)
 
+# Banner with ASCII art (fancy)
+def print_banner():
+    from pyfiglet import Figlet
+    from colorama import init, Fore
+    init(autoreset=True)
+    f = Figlet(font='slant')
+    #print(Fore.CYAN + f.renderText('Port Scan'))
+    print(Fore.YELLOW + "   \n    🔥 Port Scan  🔥\n")
+
+
 # Perform port scan on host
 def perform_port_scan(host, use_pn=False):
+    print_banner()
     print(f"[*] Scanning {host} (use_pn={use_pn})...")
     nmap_cmd = ["nmap", "-Pn", "-p-", "--min-rate", "1000", "-T3", host]
     if use_pn:

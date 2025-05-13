@@ -3,11 +3,22 @@ import subprocess
 import platform
 from concurrent.futures import ThreadPoolExecutor
 
+# Banner with ASCII art (fancy)
+def print_banner():
+    from pyfiglet import Figlet
+    from colorama import init, Fore
+    init(autoreset=True)
+    f = Figlet(font='slant')
+    #print(Fore.CYAN + f.renderText('Auto Recon For Live Host Detection'))
+    print(Fore.YELLOW + "     \n  🔥 Auto Recon Live Host Detection 🔥\n")
+
+
 # Function to check if host is live
 def check_host(host):
     """
     Resolve DNS with nslookup and then ping the host to check if it's live.
     """
+   
     # Try to resolve the host with nslookup
     try:
         result = subprocess.run(['nslookup', host], capture_output=True, text=True)
@@ -108,7 +119,7 @@ def run(subdomains):
     """
     # Ensure the subdomains are stripped of unwanted whitespace or newlines
     subdomains = [subdomain.strip() for subdomain in subdomains]
-    
+    print_banner()
     print("Running live host detection...")
     live_hosts = scan_live_hosts(subdomains)
 
@@ -120,5 +131,4 @@ def run(subdomains):
 # Example usage (For testing purposes, you can remove or modify this for integration)
 if __name__ == "__main__":
     # Save live subdomains using the file paths
-    save_live_subdomains("output/subdomains.txt", "output/new_live_subdomain.txt")
-
+    save_live_subdomains("output/subdomains.txt")
