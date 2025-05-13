@@ -1,4 +1,0 @@
-admin.vulncon.in
-cfp.vulncon.in
-space.vulncon.in
-vulncon.in
