@@ -1,1 +1,0 @@
-https://placementnetwork.lpu.in/assets/js/bootstrap.min.js

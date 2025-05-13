@@ -1,4 +1,0 @@
-http://dspace.lpu.in:80/jspui/
-http://dspace.lpu.in:8080/jspui/bitstream/123456789/3417/1/11313053_6_13_2015%201_03_36%20PM_COMPLETE%20PROJECT%20REPORT.pdf
-http://dspace.lpu.in:8080/jspui/bitstream/123456789/3242/1/11615995_11_30_2017%2011_05_06%20AM_complete%20report.pdf
-http://dspace.lpu.in:8080/jspui/bitstream/123456789/2504/1/11605754_11_30_2017%2011_10_51%20AM_final%20report.pdf

@@ -1,2 +1,0 @@
-http://convocation.lpu.in:80/error.aspx?aspxerrorpath=FUZZ
-http://convocation.lpu.in:80/file.php?file=FUZZ

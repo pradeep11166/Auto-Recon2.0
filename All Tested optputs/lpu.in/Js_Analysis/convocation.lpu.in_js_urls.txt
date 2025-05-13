@@ -1,1 +1,0 @@
-http://convocation.lpu.in:80/imgs/favicon/manifest.json

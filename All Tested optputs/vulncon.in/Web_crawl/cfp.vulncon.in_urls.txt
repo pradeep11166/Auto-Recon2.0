@@ -1,9 +1,0 @@
-http://cfp.vulncon.in/robots.txt
-http://cfp.vulncon.in/vulncon-2025/login/
-https://cfp.vulncon.in/cdn-cgi/l/email-protection
-https://cfp.vulncon.in/robots.txt
-https://cfp.vulncon.in/vulncon-2025/
-https://cfp.vulncon.in/vulncon-2025/cfp
-https://cfp.vulncon.in/vulncon-2025/login/
-https://cfp.vulncon.in/vulncon-2025/login/?next=/vulncon-2025/me/submissions/
-https://cfp.vulncon.in/vulncon-2025/reset

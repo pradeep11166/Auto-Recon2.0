@@ -1,4 +1,0 @@
-https://survey.lpu.in/
-http://survey.lpu.in:80/index.php?r=survey/index&sid=825365&lang=en
-http://survey.lpu.in/favicon.ico
-http://survey.lpu.in/robots.txt
