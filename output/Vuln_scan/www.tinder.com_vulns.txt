@@ -1,0 +1,222 @@
+[cookies-without-httponly] [javascript] [info] staging.tinder.com ["AWSALB","AWSALBCORS"]
+[cookies-without-httponly] [javascript] [info] www.tinder.com ["AWSALB","AWSALBCORS"]
+[cookies-without-secure] [javascript] [info] www.tinder.com ["AWSALB"]
+[cookies-without-httponly] [javascript] [info] lite.tinder.com ["AWSALB","AWSALBCORS"]
+[cookies-without-secure] [javascript] [info] lite.tinder.com ["AWSALB"]
+[cookies-without-secure] [javascript] [info] staging.tinder.com ["AWSALB"]
+[waf-detect:cloudflare] [http] [info] https://invite.tinder.com
+[waf-detect:akamai] [http] [info] https://invite.tinder.com
+[waf-detect:cloudflare] [http] [info] https://matchmaker.tinder.com
+[waf-detect:akamai] [http] [info] https://matchmaker.tinder.com
+[waf-detect:cloudflare] [http] [info] https://open.tinder.com
+[waf-detect:akamai] [http] [info] https://open.tinder.com
+[waf-detect:cloudflare] [http] [info] https://party.tinder.com
+[waf-detect:akamai] [http] [info] https://party.tinder.com
+[waf-detect:cloudfront] [http] [info] https://swipenight.tinder.com
+[waf-detect:cloudfront] [http] [info] https://www.swipenight.tinder.com
+[waf-detect:cloudfront] [http] [info] https://tech.tinder.com
+[waf-detect:cloudfront] [http] [info] https://www.tinder.com
+[waf-detect:nginxgeneric] [http] [info] https://www.tinder.com
+[waf-detect:cloudflare] [http] [info] https://www.help.tinder.com
+[waf-detect:cloudfront] [http] [info] https://staging.tinder.com
+[waf-detect:anyu] [http] [info] https://staging.tinder.com
+[waf-detect:nginxgeneric] [http] [info] https://staging.tinder.com
+[waf-detect:cloudfront] [http] [info] https://lite.tinder.com
+[waf-detect:anyu] [http] [info] https://lite.tinder.com
+[waf-detect:nginxgeneric] [http] [info] https://lite.tinder.com
+[robots-txt-endpoint] [http] [info] https://www.help.tinder.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://www.tinder.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://staging.tinder.com/robots.txt
+[robots-txt-endpoint] [http] [info] https://lite.tinder.com/robots.txt
+[tls-version] [ssl] [info] lite.tinder.com:443 ["tls12"]
+[tls-version] [ssl] [info] staging.tinder.com:443 ["tls12"]
+[tls-version] [ssl] [info] tech.tinder.com:443 ["tls12"]
+[tls-version] [ssl] [info] www.swipenight.tinder.com:443 ["tls12"]
+[tls-version] [ssl] [info] www.tinder.com:443 ["tls12"]
+[tls-version] [ssl] [info] swipenight.tinder.com:443 ["tls12"]
+[tls-version] [ssl] [info] lite.tinder.com:443 ["tls13"]
+[tls-version] [ssl] [info] tech.tinder.com:443 ["tls13"]
+[tls-version] [ssl] [info] staging.tinder.com:443 ["tls13"]
+[tls-version] [ssl] [info] www.tinder.com:443 ["tls13"]
+[tls-version] [ssl] [info] www.swipenight.tinder.com:443 ["tls13"]
+[tls-version] [ssl] [info] matchmaker.tinder.com:443 ["tls12"]
+[tls-version] [ssl] [info] invite.tinder.com:443 ["tls12"]
+[tls-version] [ssl] [info] open.tinder.com:443 ["tls12"]
+[tls-version] [ssl] [info] swipenight.tinder.com:443 ["tls13"]
+[tls-version] [ssl] [info] party.tinder.com:443 ["tls12"]
+[tls-version] [ssl] [info] invite.tinder.com:443 ["tls13"]
+[tls-version] [ssl] [info] matchmaker.tinder.com:443 ["tls13"]
+[tls-version] [ssl] [info] open.tinder.com:443 ["tls13"]
+[tls-version] [ssl] [info] party.tinder.com:443 ["tls13"]
+[tls-version] [ssl] [info] www.help.tinder.com:443 ["tls12"]
+[tls-version] [ssl] [info] www.help.tinder.com:443 ["tls13"]
+[tls-version] [ssl] [info] policies.tinder.com:443 ["tls12"]
+[http-missing-security-headers:permissions-policy] [http] [info] https://open.tinder.com
+[aws-detect:aws-cloudfront] [http] [info] https://www.swipenight.tinder.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://matchmaker.tinder.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://open.tinder.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://open.tinder.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://matchmaker.tinder.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://open.tinder.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://matchmaker.tinder.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://matchmaker.tinder.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://matchmaker.tinder.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://matchmaker.tinder.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://matchmaker.tinder.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://matchmaker.tinder.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://matchmaker.tinder.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://open.tinder.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://open.tinder.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://open.tinder.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://open.tinder.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://matchmaker.tinder.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://matchmaker.tinder.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://open.tinder.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://open.tinder.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://open.tinder.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://invite.tinder.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://invite.tinder.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://invite.tinder.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://invite.tinder.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://invite.tinder.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://invite.tinder.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://invite.tinder.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://invite.tinder.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://invite.tinder.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://invite.tinder.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://invite.tinder.com
+[aws-detect:aws-cloudfront] [http] [info] https://swipenight.tinder.com
+[aws-detect:aws-cloudfront] [http] [info] https://www.tinder.com
+[aws-detect:aws-alb] [http] [info] https://www.tinder.com
+[aws-detect:aws-cloudfront] [http] [info] https://tech.tinder.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://policies.tinder.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://policies.tinder.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://policies.tinder.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://policies.tinder.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://policies.tinder.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://policies.tinder.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://party.tinder.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://party.tinder.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://party.tinder.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://party.tinder.com
+[http-missing-security-headers:x-frame-options] [http] [info] https://party.tinder.com
+[http-missing-security-headers:x-content-type-options] [http] [info] https://party.tinder.com
+[http-missing-security-headers:referrer-policy] [http] [info] https://party.tinder.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://party.tinder.com
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://party.tinder.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://party.tinder.com
+[http-missing-security-headers:content-security-policy] [http] [info] https://party.tinder.com
+[http-missing-security-headers:permissions-policy] [http] [info] https://staging.tinder.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://staging.tinder.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://staging.tinder.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://staging.tinder.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://staging.tinder.com
+[aws-detect:aws-alb] [http] [info] https://staging.tinder.com
+[aws-detect:aws-cloudfront] [http] [info] https://staging.tinder.com
+[http-missing-security-headers:strict-transport-security] [http] [info] https://www.help.tinder.com/hc/en-gb
+[http-missing-security-headers:content-security-policy] [http] [info] https://www.help.tinder.com/hc/en-gb
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://www.help.tinder.com/hc/en-gb
+[http-missing-security-headers:clear-site-data] [http] [info] https://www.help.tinder.com/hc/en-gb
+[http-missing-security-headers:permissions-policy] [http] [info] https://lite.tinder.com
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://lite.tinder.com
+[http-missing-security-headers:clear-site-data] [http] [info] https://lite.tinder.com
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://lite.tinder.com
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://lite.tinder.com
+[aws-detect:aws-alb] [http] [info] https://lite.tinder.com
+[aws-detect:aws-cloudfront] [http] [info] https://lite.tinder.com
+[gpc-json:gpc-version] [http] [info] https://www.tinder.com/.well-known/gpc.json [""]
+[gpc-json:gpc-version] [http] [info] https://lite.tinder.com/.well-known/gpc.json [""]
+[gpc-json:gpc-version] [http] [info] https://staging.tinder.com/.well-known/gpc.json [""]
+[aws-cloudfront-service] [http] [info] https://www.swipenight.tinder.com
+[aws-cloudfront-service] [http] [info] https://swipenight.tinder.com
+[xss-deprecated-header] [http] [info] https://www.tinder.com ["1; mode=block"]
+[aws-cloudfront-service] [http] [info] https://www.tinder.com
+[addeventlistener-detect] [http] [info] https://policies.tinder.com
+[xss-deprecated-header] [http] [info] https://policies.tinder.com ["1; mode=block"]
+[email-extractor] [http] [info] https://lite.tinder.com ["email@example.com"]
+[email-extractor] [http] [info] https://staging.tinder.com ["email@example.com"]
+[xss-deprecated-header] [http] [info] https://lite.tinder.com ["1; mode=block"]
+[aws-cloudfront-service] [http] [info] https://lite.tinder.com
+[xss-deprecated-header] [http] [info] https://staging.tinder.com ["1; mode=block"]
+[aws-cloudfront-service] [http] [info] https://staging.tinder.com
+[robots-txt] [http] [info] https://www.help.tinder.com/robots.txt
+[apple-app-site-association] [http] [info] https://www.tinder.com/apple-app-site-association ["825DDA558L.com.cardify.tinder","3MA7DPZCYW.com.tinder.tinder.Enterprise"]
+[apple-app-site-association] [http] [info] https://lite.tinder.com/apple-app-site-association ["825DDA558L.com.cardify.tinder","3MA7DPZCYW.com.tinder.tinder.Enterprise"]
+[apple-app-site-association] [http] [info] https://staging.tinder.com/apple-app-site-association ["825DDA558L.com.cardify.tinder","3MA7DPZCYW.com.tinder.tinder.Enterprise"]
+[tech-detect:cloudflare] [http] [info] https://party.tinder.com
+[tech-detect:cloudflare] [http] [info] https://matchmaker.tinder.com
+[tech-detect:cloudflare] [http] [info] https://invite.tinder.com
+[tech-detect:cloudflare] [http] [info] https://open.tinder.com
+[tech-detect:express] [http] [info] https://www.tinder.com
+[tech-detect:nginx] [http] [info] https://www.tinder.com
+[tech-detect:cloudflare] [http] [info] https://www.help.tinder.com/hc/en-gb
+[tech-detect:cloudflare] [http] [info] https://www.help.tinder.com/hc
+[tech-detect:cloudflare] [http] [info] https://www.help.tinder.com
+[tech-detect:react] [http] [info] https://staging.tinder.com
+[tech-detect:express] [http] [info] https://staging.tinder.com
+[tech-detect:nginx] [http] [info] https://staging.tinder.com
+[tech-detect:react] [http] [info] https://lite.tinder.com
+[tech-detect:express] [http] [info] https://lite.tinder.com
+[tech-detect:nginx] [http] [info] https://lite.tinder.com
+[caa-fingerprint] [dns] [info] www.tinder.com
+[nameserver-fingerprint] [dns] [info] staging.tinder.com ["ns-358.awsdns-44.com.","ns-1633.awsdns-12.co.uk.","ns-1511.awsdns-60.org.","ns-859.awsdns-43.net."]
+[caa-fingerprint] [dns] [info] staging.tinder.com
+[soa-detect:amazon-web-services] [dns] [info] www.swipenight.tinder.com
+[nameserver-fingerprint] [dns] [info] www.swipenight.tinder.com ["ns-1205.awsdns-22.org.","ns-620.awsdns-13.net.","ns-396.awsdns-49.com.","ns-1666.awsdns-16.co.uk."]
+[soa-detect:amazon-web-services] [dns] [info] www.help.tinder.com
+[soa-detect:cloudflare] [dns] [info] party.tinder.com
+[caa-fingerprint] [dns] [info] swipenight.tinder.com
+[nameserver-fingerprint] [dns] [info] swipenight.tinder.com ["ns-620.awsdns-13.net.","ns-1205.awsdns-22.org.","ns-1666.awsdns-16.co.uk.","ns-396.awsdns-49.com."]
+[nameserver-fingerprint] [dns] [info] policies.tinder.com ["dns1.p04.nsone.net.","dns4.p04.nsone.net.","dns3.p04.nsone.net.","dns2.p04.nsone.net."]
+[caa-fingerprint] [dns] [info] party.tinder.com
+[soa-detect:cloudflare] [dns] [info] invite.tinder.com
+[caa-fingerprint] [dns] [info] www.help.tinder.com
+[caa-fingerprint] [dns] [info] invite.tinder.com
+[soa-detect:amazon-web-services] [dns] [info] lite.tinder.com
+[soa-detect:amazon-web-services] [dns] [info] staging.tinder.com
+[caa-fingerprint] [dns] [info] www.swipenight.tinder.com
+[soa-detect:amazon-web-services] [dns] [info] swipenight.tinder.com
+[caa-fingerprint] [dns] [info] matchmaker.tinder.com
+[soa-detect:cloudflare] [dns] [info] matchmaker.tinder.com
+[soa-detect:cloudflare] [dns] [info] open.tinder.com
+[caa-fingerprint] [dns] [info] open.tinder.com
+[ssl-issuer] [ssl] [info] www.help.tinder.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] www.help.tinder.com:443 ["www.help.tinder.com"]
+[spf-record-detect] [dns] [info] www.help.tinder.com ["v=spf1 include:mail.zendesk.com ~all""]
+[txt-fingerprint] [dns] [info] www.help.tinder.com [""pod=13"",""v=spf1 include:mail.zendesk.com ~all""]
+[ssl-issuer] [ssl] [info] staging.tinder.com:443 ["Amazon"]
+[ssl-dns-names] [ssl] [info] staging.tinder.com:443 ["staging.tinder.com"]
+[ssl-issuer] [ssl] [info] lite.tinder.com:443 ["Amazon"]
+[ssl-issuer] [ssl] [info] swipenight.tinder.com:443 ["Amazon"]
+[ssl-dns-names] [ssl] [info] lite.tinder.com:443 ["lite.tinder.com"]
+[ssl-dns-names] [ssl] [info] swipenight.tinder.com:443 ["swipenight.com","www.swipenight.tinder.com","swipenight.tinder.com","www.swipenight.com"]
+[ssl-issuer] [ssl] [info] www.swipenight.tinder.com:443 ["Amazon"]
+[ssl-issuer] [ssl] [info] tech.tinder.com:443 ["Amazon"]
+[ssl-dns-names] [ssl] [info] www.swipenight.tinder.com:443 ["swipenight.com","www.swipenight.tinder.com","swipenight.tinder.com","www.swipenight.com"]
+[ssl-dns-names] [ssl] [info] tech.tinder.com:443 ["tech.gotinder.com","tech.tinder.com"]
+[ssl-issuer] [ssl] [info] matchmaker.tinder.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] matchmaker.tinder.com:443 ["matchmaker.tinder.com"]
+[ssl-issuer] [ssl] [info] www.tinder.com:443 ["Amazon"]
+[ssl-dns-names] [ssl] [info] www.tinder.com:443 ["tinder.com","www.tinder.com"]
+[dns-saas-service-detection] [dns] [info] party.tinder.com ["tinderparty.customlinks.appsflyer.com"]
+[dns-saas-service-detection:amazon-cloudfront] [dns] [info] swipenight.tinder.com ["d3hehfxz0qbo5f.cloudfront.net"]
+[dns-saas-service-detection:zendesk] [dns] [info] www.help.tinder.com ["tinder.zendesk.com"]
+[dns-saas-service-detection] [dns] [info] open.tinder.com ["tinder.customlinks.appsflyer.com"]
+[dns-saas-service-detection] [dns] [info] invite.tinder.com ["tinderinvite.customlinks.appsflyer.com"]
+[ssl-issuer] [ssl] [info] invite.tinder.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] invite.tinder.com:443 ["invite.tinder.com"]
+[dns-saas-service-detection:amazon-cloudfront] [dns] [info] staging.tinder.com ["d3x670zwfo7g1.cloudfront.net"]
+[ssl-issuer] [ssl] [info] policies.tinder.com:443 ["Let's Encrypt"]
+[ssl-issuer] [ssl] [info] party.tinder.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] policies.tinder.com:443 ["policies.tinder.com"]
+[ssl-dns-names] [ssl] [info] party.tinder.com:443 ["party.tinder.com"]
+[dns-saas-service-detection] [dns] [info] matchmaker.tinder.com ["tindermatchmaker.customlinks.appsflyer.com"]
+[dns-saas-service-detection:amazon-cloudfront] [dns] [info] www.swipenight.tinder.com ["d3hehfxz0qbo5f.cloudfront.net"]
+[ssl-issuer] [ssl] [info] open.tinder.com:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] open.tinder.com:443 ["open.tinder.com"]
+[mx-fingerprint] [dns] [info] www.help.tinder.com ["10 mail-pod-13.int.zendesk.com."]
+[caa-fingerprint] [dns] [info] lite.tinder.com
+[soa-detect:amazon-web-services] [dns] [info] tech.tinder.com
+[soa-detect:amazon-web-services] [dns] [info] www.tinder.com
+[caa-fingerprint] [dns] [info] policies.tinder.com
+[caa-fingerprint] [dns] [info] tech.tinder.com

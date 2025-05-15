@@ -1,0 +1,12 @@
+staging.tinder.com
+www.tinder.com
+policies.tinder.com
+tech.tinder.com
+lite.tinder.com
+www.swipenight.tinder.com
+open.tinder.com
+swipenight.tinder.com
+invite.tinder.com
+party.tinder.com
+matchmaker.tinder.com
+www.help.tinder.com
