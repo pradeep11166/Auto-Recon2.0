@@ -65,6 +65,7 @@ AutoRecon2.0/
 ├── requirements.txt # Python dependencies
 └── README.md 
 
+---
 
 ### 🔗 Dependencies
 
@@ -84,12 +85,16 @@ Ensure the following tools are installed and in your `$PATH`:
 - `getJS`
 - `jsbeautifier`
 
+--- 
+
 ### 📦 Python Packages
 
 Install Flask and required modules:
 
 ```bash
 pip3 install flask colorama pyfiglet
+
+---
 
 ## 🛠️ Installation
 
@@ -100,6 +105,7 @@ git clone https://github.com/pradeep11166/AutoRecon.git
 cd AutoRecon
 pip install -r requirements.txt
 
+---
 
 ## 🛠️ Required Tools
 
@@ -135,6 +141,7 @@ Ensure the following tools are installed and available in your PATH:
 
     crlfuzz
 
+---
 
 ## Launch AutoRecon Web GUI
 
@@ -159,6 +166,7 @@ Open your browser and go to: http://localhost:5000
 
     Scan log will auto-update every 5 seconds
 
+
 ## Scan Modes Explained
 
 Mode	Modules Included
@@ -171,6 +179,8 @@ Full    Scan	All modules
 
 All results are saved under the output/<domain>/ directory, organized by module. Logs are printed in the web GUI and also saved for later review
 
+
+
 ##Security Notes
 
     Runs OS commands; do not use on unauthorized targets.
@@ -178,6 +188,8 @@ All results are saved under the output/<domain>/ directory, organized by module.
     Results are stored locally and not shared.
 
     In production or shared environments, add authentication and sandboxing.
+
+
 
 💡 ## Coming in AutoRecon 3.0
 
@@ -194,7 +206,9 @@ All results are saved under the output/<domain>/ directory, organized by module.
     📊 Scan reporting and PDF exports
 
 
-🙋‍♂️ Contributing
+
+
+🙋‍♂️ #Contributing
 
 Pull requests are welcome!
 
