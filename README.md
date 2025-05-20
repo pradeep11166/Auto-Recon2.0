@@ -105,7 +105,7 @@ git clone https://github.com/pradeep11166/AutoRecon.git
 cd AutoRecon
 pip install -r requirements.txt
 
----
+```
 
 ## 🛠️ Required Tools
 
