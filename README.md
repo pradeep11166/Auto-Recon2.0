@@ -63,7 +63,7 @@ AutoRecon2.0/
 ├── autorecon.py # Main web server & controller
 ├── requirements.txt # Python dependencies
 └── README.md # This file
----
+
 
 ### 🔗 Dependencies
 
