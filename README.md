@@ -143,7 +143,9 @@ Ensure the following tools are installed and available in your PATH:
 
 ## Launch AutoRecon Web GUI
 
-python autorecon.py
+python3 autorecon.py  # for cli 
+
+python3 app.py  # for gui
 
 Open your browser and go to: http://localhost:5000
 2. Use the Web Interface
