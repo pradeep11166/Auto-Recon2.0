@@ -60,11 +60,9 @@ AutoRecon2.0/
 │ └── status.html # Scan output log view
 ├── output/
 │ └── [target]/ # All module results stored here
-├── autorecon.py # Main python file to run in command line
-├── app.py  # GUI based interface for Auto-Recon
+├── autorecon.py # Main web server & controller
 ├── requirements.txt # Python dependencies
-└── README.md 
-
+└── README.md # This file
 ---
 
 ### 🔗 Dependencies
